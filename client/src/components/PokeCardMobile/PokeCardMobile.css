@@ -1,0 +1,227 @@
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#pokeCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem;
+  min-height: 80vh;
+  max-width: 40rem;
+  width: 400px;
+  height: 790px;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+#pokemonImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 100% 60%;
+  border-bottom-right-radius: 100% 60%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#pokemon {
+  position: absolute;
+  z-index: 3;
+  min-width: 15rem;
+  max-width: 19em;
+  max-height: 18rem;
+}
+.typeSvg {
+  position: relative;
+  z-index: 0;
+  min-width: 20rem;
+  max-width: 29em;
+  max-height: 20rem;
+}
+.pokeName {
+  padding: 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-princpal);
+}
+.pokeName p {
+  font-size: 2.5rem;
+  margin: 0;
+  padding-right: 2rem;
+}
+.pokeName h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.typeImg {
+  border-radius: 25%;
+  height: 2.6rem;
+}
+.cardBack {
+  max-width: 25rem;
+  position: relative;
+  z-index: 2;
+  right: 75;
+}
+
+.typesDiv {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 0.2rem;
+  width: 110px;
+}
+.typesDiv p {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.types {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.3rem;
+  gap: 1rem;
+}
+.type {
+  border-radius: 100%;
+  background-color: white;
+  height: 1.6rem;
+}
+.normal {
+  background-color: rgba(var(--normal), 0.4);
+}
+.combat {
+  background-color: rgba(var(--combat), 0.4);
+}
+.vol {
+  background-color: rgba(var(--vol), 0.4);
+}
+.poison {
+  background-color: rgba(var(--poison), 0.4);
+}
+.sol {
+  background-color: rgba(var(--sol), 0.4);
+}
+.roche {
+  background-color: rgba(var(--roche), 0.4);
+}
+.insecte {
+  background-color: rgba(var(--insecte), 0.4);
+}
+.spectre {
+  background-color: rgba(var(--spectre), 0.4);
+}
+.acier {
+  background-color: rgba(var(--acier), 0.4);
+}
+.feu {
+  background-color: rgba(var(--feu), 0.4);
+}
+.eau {
+  background-color: rgba(var(--eau), 0.4);
+}
+.plante {
+  background-color: rgba(var(--plante), 0.4);
+}
+
+.elec {
+  background-color: rgba(var(--electrik), 0.4);
+}
+.psy {
+  background-color: rgba(var(--psy), 0.4);
+}
+.glace {
+  background-color: rgba(var(--glace), 0.4);
+}
+.dragon {
+  background-color: rgba(var(--dragon), 0.4);
+}
+.tenebres {
+  background-color: rgba(var(--tenebre), 0.4);
+}
+.fee {
+  background-color: rgba(var(--fee), 0.4);
+}
+
+.normalBack {
+  background-color: rgb(125, 127, 130);
+}
+.combatBack {
+  background-color: rgb(181, 55, 71);
+}
+.volBack {
+  background-color: rgb(125, 147, 194);
+}
+.poisonBack {
+  background-color: rgb(164, 86, 188);
+}
+.solBack {
+  background-color: rgb(189, 122, 68);
+}
+.rocheBack {
+  background-color: rgb(163, 153, 111);
+}
+.insecteBack {
+  background-color: rgb(107, 154, 83);
+}
+.spectreBack {
+  background-color: rgb(83, 89, 152);
+}
+.acierBack {
+  background-color: rgb(61, 120, 134);
+}
+.feuBack {
+  background-color: #f8a54f;
+}
+.eauBack {
+  background-color: rgb(99, 170, 233);
+}
+.planteBack {
+  background-color: rgb(102, 169, 103);
+}
+
+.electrikBack {
+  background-color: rgb(247, 220, 45);
+}
+.psyBack {
+  background-color: rgb(216, 110, 108);
+}
+.glaceBack {
+  background-color: rgb(101, 175, 165);
+}
+.dragonBack {
+  background-color: rgb(3, 77, 133);
+}
+.tenebresBack {
+  background-color: rgb(95, 96, 109);
+}
+.feeBack {
+  background-color: rgb(235, 88, 220);
+}
+
+.button {
+  margin-top: 2rem;
+  border: none;
+  border-radius: 30px;
+  width: 120px;
+  height: 26px;
+  font-family: var(--font-princpal);
+  color: grey;
+}
